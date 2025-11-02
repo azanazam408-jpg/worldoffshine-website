@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World of Shine - Professional Cleaning Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.jpg" />
+
+    
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="img/logo.jpg" alt="World of Shine Logo" />
+          </a>
+    
+          <nav class="header-nav" id="headerNav">
+            <ul>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="commercial.html">Commercial</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header-buttons">
+              <a href="contact.html" class="btn btn-primary">Book Now</a>
+            </div>
+          </nav>
+          
+          <div class="theme-switcher">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+            <label for="theme-toggle" class="theme-toggle-label"></label>
+          </div>
+    
+          <button
+            class="mobile-nav-toggle"
+            id="mobileNavToggle"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </header>
+
+    <main>
+      <marquee scrollamount="20"><h1>Welcome to World off Shine</h1></marquee>
+    
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Your Premier Cleaning Service for a Spotless Space</h1>
+          <p class="subtitle">
+            Reliable, professional, and eco-friendly cleaning for homes and
+            offices in Dubai, Sharjah & Ajman.
+          </p>
+          <a href="contact.html" class="btn btn-primary">Request a Booking</a>
+          <a href="index.html#services" class="btn secondary">View Rates</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/i5.png" alt="Two cleaners mopping a living room floor" />
+        </div>
+      </div>
+    </section>
+    <section id="services" class="container">
+  <h2>Our Competitive Rates</h2>
+  <div class="services-grid">
+
+    <!-- Sharjah Rates Card -->
+    <div class="service-card">
+      <h3>Sharjah Rates</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <ul>
+          <li>2 hours: 60 AED</li>
+          <li>3 hours: 70 AED</li>
+          <li>4 hours: 80 AED</li>
+          <li>5 hours: 100 AED</li>
+          <li>6 hours: 120 AED</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Ajman Rates Card -->
+    <div class="service-card">
+      <h3>Ajman Rates</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <ul>
+          <li>2 hours: 60 AED</li>
+          <li>3 hours: 70 AED</li>
+          <li>4 hours: 80 AED</li>
+          <li>5 hours: 100 AED</li>
+          <li>6 hours: 120 AED</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sofa Seats Cleaning Card -->
+    <div class="service-card">
+      <h3>Sofa Seats Cleaning</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <ul>
+          <li>Single seat Sofa : 60 AED</li>
+          <li>Double seats Sofa : 100 AED</li>
+          <li>Triple seats Sofa : 120 AED</li>
+          <li>Four Seats Sofa : 120 AED</li>
+          <li>Five Seats Sofa : 150 AED</li>
+          <li>Six Seats Sofa : 200 AED</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Vila Cleaning Card -->
+    <div class="service-card">
+      <h3>Vila Cleaing</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <h4>Deep cleaning</h4>
+        <ul>
+          <li>Bed room</li>
+          <li>Bath room</li>
+          <li>Kitchen</li>
+          <li>Balcony</li>
+          <li>Garage</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Air Conditioner Repair Service Card -->
+    <div class="service-card">
+      <h3>Air Conditioner Repair Service</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <p>
+          At [ World off Shine], we believe comfort is more than just cool air — it’s an experience of elegance and precision. Our team of certified professionals delivers world-class air conditioner repair and maintenance services designed for those who expect excellence. From advanced diagnostics to meticulous restoration, every step is handled with care, quality, and sophistication. Whether it’s your home or your office, we ensure flawless performance and lasting comfort. Experience the luxury of perfect cooling — where technology meets trust, and comfort becomes an art. booking for 📞 Call or WhatsApp: +971 504996202 <a
+            href="https://wa.me/971568260687"
+            target="_blank"
+            title="WhatsApp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Monthly Packages Card -->
+    <div class="service-card">
+      <h3>Monthly Packages</h3>
+      <button class="details-btn" onclick="toggleDetails(this)">Details</button>
+      <div class="card-details" style="display: none;">
+        <ul>
+              <li>
+                <strong>🧹 Basic Sparkle Package</strong>
+                <ul>
+                  <li>2 visits per week (2 hours each)</li>
+                  <li>🗓️ 8 visits per month</li>
+                  <li>200 AED / month</li>
+                  <li>Perfect for small apartments or individuals.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>✨ Standard Fresh Package</strong>
+                <ul>
+                  <li>3 visits per week (2 hours each)</li>
+                  <li>🗓️ 12 visits per month</li>
+                  <li>300 AED / month</li>
+                  <li>Ideal for small families who want regular cleanliness.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🏠 Plus Shine Package</strong>
+                <ul>
+                  <li>3 visits per week (3 hours each)</li>
+                  <li>🗓️ 12 visits per month</li>
+                  <li>450 AED / month</li>
+                  <li>Perfect for deeper cleaning and longer sessions.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🌟 Premium Care Package</strong>
+                <ul>
+                  <li>5 visits per week (2 hours each)</li>
+                  <li>🗓️ 20 visits per month</li>
+                  <li>500 AED / month</li>
+                  <li>Keep your home sparkling fresh every weekday.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🌼 Exclusive Weekly Options</strong>
+              </li>
+              <li>
+                <strong>👑 Elite Home Package</strong>
+                <ul>
+                  <li>5 visits per week (3 hours each)</li>
+                  <li>🗓️ 20 visits per month</li>
+                  <li>750 AED / month</li>
+                  <li>Premium deep cleaning for larger homes and villas.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🏢 Executive Office Package</strong>
+                <ul>
+                  <li>4 visits per week (4 hours each)</li>
+                  <li>🗓️ 16 visits per month</li>
+                  <li>800 AED / month</li>
+                  <li>Perfect for offices needing consistent professional care.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>💫 Ultimate Care Package</strong>
+                <ul>
+                  <li>6 visits per week (4 hours each)</li>
+                  <li>🗓️ 24 visits per month</li>
+                  <li>1,200 AED / month</li>
+                  <li>Full-service daily cleaning for complete home maintenance.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🌷 Specialized & VIP Packages</strong>
+              </li>
+              <li>
+                <strong>💎 Royal Comfort Package</strong>
+                <ul>
+                  <li>7 visits per week (4 hours each)</li>
+                  <li>🗓️ 28 visits per month</li>
+                  <li>1,400 AED / month</li>
+                  <li>Daily luxury cleaning for elegant homes and villas.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🌙 Evening Shine Package</strong>
+                <ul>
+                  <li>4 visits per week (3 hours each)</li>
+                  <li>🗓️ 16 visits per month</li>
+                  <li>600 AED / month</li>
+                  <li>Evening or night-time cleaning for homes and offices.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🧴 Deep Hygiene Package</strong>
+                <ul>
+                  <li>2 visits per week (4 hours each)</li>
+                  <li>🗓️ 8 visits per month</li>
+                  <li>400 AED / month</li>
+                  <li>Deep disinfection and sanitization for hygiene-focused clients.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🧺 Family Comfort Package</strong>
+                <ul>
+                  <li>4 visits per week (3 hours each)</li>
+                  <li>🗓️ 16 visits per month</li>
+                  <li>600 AED / month</li>
+                  <li>Cleaning, laundry, and ironing for busy households.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🕋 Majestic Villa Package</strong>
+                <ul>
+                  <li>6 visits per week (5 hours each)</li>
+                  <li>🗓️ 24 visits per month</li>
+                  <li>1,500 AED / month</li>
+                  <li>For large villas — deep cleaning and garden maintenance.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>🌿 Eco-Friendly Green Package</strong>
+                <ul>
+                  <li>3 visits per week (2 hours each)</li>
+                  <li>🗓️ 12 visits per month</li>
+                  <li>300 AED / month</li>
+                  <li>All-natural, chemical-free cleaning for a healthy home.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>💼 Corporate Deluxe Package</strong>
+                <ul>
+                  <li>5 visits per week (5 hours each)</li>
+                  <li>🗓️ 20 visits per month</li>
+                  <li>1,250 AED / month</li>
+                  <li>For offices and commercial spaces needing premium maintenance.</li>
+                </ul>
+              </li>
+            </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <section id="why-choose-us" class="container section">
+      <h2>Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fas fa-user-shield"></i>
+          <h3>Vetted & Insured Staff</h3>
+          <p>
+            Our team is background-checked, professionally trained, and fully
+            insured for your peace of mind.
+          </p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-star"></i>
+          <h3>Satisfaction Guarantee</h3>
+          <p>
+            We're not happy unless you are. If you're not satisfied, we'll come
+            back and make it right.
+          </p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-leaf"></i>
+          <h3>Eco-Friendly Products</h3>
+          <p>
+            We use safe, non-toxic, and environmentally friendly cleaning
+            supplies to protect your family and pets.
+          </p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Flexible Scheduling</h3>
+          <p>
+            Book online anytime. We offer one-time, weekly, bi-weekly, or monthly
+            services to fit your life.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="news-slider-section">
+  <h2>Latest News & Tips</h2>
+  <div class="news-slider" id="newsSlider">
+    <div class="news-slide active">
+      <h3>How to Keep Your Home Sparkling Clean</h3>
+      <p>Our experts share essential daily habits for a pristine home.</p>
+      <span>November 1, 2025</span>
+    </div>
+    <div class="news-slide">
+      <h3>Eco-Friendly Cleaning Solutions</h3>
+      <p>Discover safe and effective methods for a green clean.</p>
+      <span>October 28, 2025</span>
+    </div>
+    <div class="news-slide">
+      <h3>Tips for Maintaining Office Hygiene</h3>
+      <p>How a cleaner workplace improves productivity and well-being.</p>
+      <span>October 22, 2025</span>
+    </div>
+    <!-- Add more news items as needed -->
+  </div>
+</section>
+
+
+    <section id="gallery" class="container section">
+      <h2>✨ Our Work Gallery</h2>
+      <div class="media-grid">
+        <div class="media-item">
+          <img
+            src="img/i8.png"
+            alt="Pristine white living room"
+          />
+        </div>
+        <div class="media-item">
+          <img
+            src="img/i7.png"
+            alt="Garage Cleaning Action"
+          />
+        </div>
+        <div class="media-item">
+          <img
+            src="img/i3.png"
+            alt="Cleaner wiping down an office desk"
+          />
+        </div>
+        <div class="media-item">
+          <img src="img/i4 set.png" alt="Cleaner in a kitchen wiping a range hood" />
+        </div>
+        <div class="media-item">
+          <img src="img/i2.png" alt="Woman in hijab cleaning an office desk" />
+        </div>
+        <div class="media-item">
+          <img
+            src="img/i6.png"
+            alt="Woman washing a window"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="videos" class="container section">
+  <h2>🎥 See Our Team in Action</h2>
+  <p class="section-subtitle">Experience the sparkle — watch how our professionals bring cleanliness and shine to every space.</p>
+
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe
+        src="video/video.mp4"
+        title="Professional Cleaning Video 1"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h3>Home Deep Cleaning</h3>
+    </div>
+
+    <div class="video-item">
+      <iframe
+        src="video/v.mp4"
+        title="Professional Cleaning Video 2"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h3>Office Cleaning Service</h3>
+    </div>
+
+    <div class="video-item">
+      <iframe
+        src="video/video.mp4"
+        title="Professional Cleaning Video 3"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h3>Before & After Transformation</h3>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="container section">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>
+            World of Shine transformed our apartment! We came home to a spotless
+            space. The attention to detail in the kitchen and bathrooms was
+            incredible. Highly recommend their service.
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop"
+              alt="Sarah K."
+            />
+            <div class="author-info">
+              <strong>Sarah K.</strong>
+              <span>Dubai Resident</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            We use their monthly package for our office. The team is always on
+            time, professional, and does a thorough job. It's great to know our
+            workspace is always clean and sanitized.
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop"
+              alt="Ahmed R."
+            />
+            <div class="author-info">
+              <strong>Ahmed R.</strong>
+              <span>Office Manager, Sharjah</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            Booking was so easy, and the price was very competitive. The cleaners
+            were friendly and efficient. I've already scheduled my next deep
+            clean with them!
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+              alt="Fatima A."
+            />
+            <div class="author-info">
+              <strong>Fatima A.</strong>
+              <span>Ajman Homeowner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-links">
+                <a href="index.html#services">Services</a>
+                <a href="about.html">About Us</a>
+                <a href="commercial.html">Commercial</a>
+                <a href="faq.html">FAQ</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social-links">
+                <a
+                  href="https://www.instagram.com/world_of_shine810/"
+                  target="_blank"
+                  title="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@world.of.shine.cl?lang=en"
+                  target="_blank"
+                  title="TikTok"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61574581764671"
+                  target="_blank"
+                  title="Facebook"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a
+                  href="https://wa.me/971568260687"
+                  target="_blank"
+                  title="WhatsApp"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+            </div>
+            <p>&copy; 2025 World of Shine. All Rights Reserved.</p>
+            <marquee><p>Directed By Muhammad Azan Azam</p></marquee>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+      <script>
+function toggleDetails(button) {
+  const details = button.nextElementSibling;
+  if (details.style.display === "none" || !details.style.display) {
+    details.style.display = "block";
+    button.textContent = "Hide Details";
+  } else {
+    details.style.display = "none";
+    button.textContent = "Details";
+  }
+}
+</script>
+ <main class="thankyou-section container" style="text-align:center; padding:50px 0;">
+        <h1 style="color:#009688;">Thank You!</h1>
+        <p>To see our website of World off Shine .<br>
+        We appreciate your interest in <strong>World Off Shine</strong> and will contact you soon.</p>
+        <a href="index.html" class="btn btn-primary" style="margin-top:30px;">Back to Home</a>
+        <br><br>
+<!-- Add this just before the closing </body> tag of your webpage -->
+<button onclick="scrollToTop()" id="upBtn" title="Go to top">▲</button>
+<section class="counters-section">
+  <div class="counter-box">
+    <span class="counter" data-target="5000">0</span>
+    <p>Happy Customers</p>
+  </div>
+  <div class="counter-box">
+    <span class="counter" data-target="200">0</span>
+    <p>Projects Completed</p>
+  </div>
+  <div class="counter-box">
+    <span class="counter" data-target="15">0</span>
+    <p>Team Members</p>
+  </div>
+  <div class="counter-box">
+    <span class="counter" data-target="3">0</span>
+    <p>Years Experience</p>
+  </div>
+</section>
+
+<style>
+#upBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position */
+  bottom: 20px; /* 20px from the bottom */
+  right: 30px; /* 30px from the right */
+  z-index: 99; /* On top */
+  font-size: 24px; /* Size of the button */
+  border: none; /* No border */
+  outline: none; /* No outline */
+  background-color:#7394b9; /* Blue background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  padding: 10px 11px; /* Padding */
+  border-radius: 35px; /* Rounded corners */
+}
+
+#upBtn:hover {
+  background-color: #5a5a5a; /* Darker blue on hover */
+}
+</style>
+
+<script>
+// Show the button when the user scrolls down 100px from the top
+window.onscroll = function() {toggleUpButton()};
+
+function toggleUpButton() {
+  const upBtn = document.getElementById("upBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    upBtn.style.display = "block";
+  } else {
+    upBtn.style.display = "none";
+  }
+}
+
+// Scroll to the top smoothly when the button is clicked
+function scrollToTop() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+
+</body>
+</html>
